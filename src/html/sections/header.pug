@@ -1,0 +1,29 @@
+header.header 
+    .header__content.container
+        input#header__burger(type="checkbox")
+        label(for="header__burger").header__burger
+            span.line
+            span.line
+            span.line 
+        nav.header__nav 
+            ul.header__links
+                each item in headerLinks
+                    li 
+                        a.header__link(href= item.url)= item.label
+        a(href="#").header__logo
+            img(src="./img/logo.svg", alt="")
+        .header__right
+            ul.header__items 
+                li 
+                    a(href="#") Sustainability
+                li 
+                    a(href="#") Stores 
+            ul.header__buttons
+                each item in headerButtons
+                    li 
+                        a.header__button(href= item.url)
+                            img(src= item.img, alt= item.alt)
+                li 
+                    button.header__button.cart(href= cart.url)
+                        img(src= cart.img, alt="cart")
+                        span.cart__counter= cart.counter    
