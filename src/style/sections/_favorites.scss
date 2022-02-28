@@ -1,0 +1,46 @@
+.favorites {
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+    &__menu {
+        width: 100%;
+        border-bottom: 2px solid #D3D4D5;
+        .menu {
+            &__items {
+                display: flex;
+                justify-content: center;
+                .menu__item {
+                    padding: 1.2rem 3rem;
+                    margin-right: 9rem;
+                    border-bottom: 2px solid transparent;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &:hover {
+                        border-bottom: 2px solid #000000;
+                        font-weight: 700;
+                    }
+                }
+                .menu__link {
+                    text-transform: uppercase;
+                    color:$c-text;
+                }
+            }
+        }
+    }
+    &__items {
+        margin-top: 3.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}

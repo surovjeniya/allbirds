@@ -1,0 +1,14 @@
+include ../components/card
+
+section.favorites
+    .favorites__content.container
+        h2.favorites__title Our Favorites
+        .favorites__menu.menu 
+            ul.menu__items 
+                each item in favoritesLinks
+                    li.menu__item 
+                        a.menu__link(href= item.url)= item.label
+        .favorites__items
+            each item in favoritesCards
+                +card(item.img,item.alt,item.title,item.description,item.svg)
+

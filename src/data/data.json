@@ -29,5 +29,42 @@
         "url":"#",
         "img":"./img/cart.svg",
         "counter":"8"
-    }
+    },
+    "favoritesLinks":[
+        {
+            "url":"#",
+            "label":"Everyday"
+        },
+        {
+            "url":"#",
+            "label":"Running"
+        },
+        {
+            "url":"#",
+            "label":"Travel"
+        }
+    ],
+    "favoritesCards":[
+        {
+            "img":"./img/card1.jpg",
+            "alt":"card image",
+            "title":"Wool Runner",
+            "description":"Cozy Sneaker",
+            "svg":"./img/cloud.svg"
+        },
+        {
+            "img":"./img/card1.jpg",
+            "alt":"card image",
+            "title":"Wool Runner",
+            "description":"Cozy Sneaker",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/card1.jpg",
+            "alt":"card image",
+            "title":"Wool Runner",
+            "description":"Cozy Sneaker",
+            "svg":"./img/sun.svg"
+        }
+    ]
 }
