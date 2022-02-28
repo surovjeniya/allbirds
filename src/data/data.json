@@ -1,3 +1,33 @@
 {
-    
+    "headerLinks": [
+        {
+            "url":"#",
+            "label":"Men"
+        },
+        {
+            "url":"#",
+            "label":"Women"
+        },
+        {
+            "url":"#",
+            "label":"New Arrivals"
+        }
+    ],
+    "headerButtons":[
+        {
+            "url":"#",
+            "img":"./img/person.svg",
+            "alt":"person"
+        },
+        {
+            "url":"#",
+            "img":"./img/about.svg",
+            "alt":"about"
+        }
+    ],
+    "cart":{
+        "url":"#",
+        "img":"./img/cart.svg",
+        "counter":"8"
+    }
 }
