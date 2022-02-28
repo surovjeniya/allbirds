@@ -1,0 +1,15 @@
+include ./button
+
+mixin card(img,alt,title,description,svg)
+    .card 
+        .card__image 
+            img(src= img, alt= alt)
+            .card__buttons 
+                +button('#','Shop Men','white')
+                +button('#','Shop Women','white')
+        .card__main 
+            h3.card__title= title
+            .card__description
+                img(src= svg).card__icon
+                p= description
+        
