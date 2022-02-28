@@ -1,0 +1,19 @@
+.regular__btn {
+    border-radius: 5px;
+    padding: 1.7rem 4.5rem;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.regular__btn.white {
+    background: $c-white;
+    color:$c-text;
+}
+
+.regular__btn.black {
+    background: $c-text;
+    color:$c-white;
+}
