@@ -53,14 +53,14 @@
             "svg":"./img/cloud.svg"
         },
         {
-            "img":"./img/card1.jpg",
+            "img":"./img/card2.jpg",
             "alt":"card image",
             "title":"Wool Runner",
             "description":"Cozy Sneaker",
             "svg":"./img/leaf.svg"
         },
         {
-            "img":"./img/card1.jpg",
+            "img":"./img/card3.jpg",
             "alt":"card image",
             "title":"Wool Runner",
             "description":"Cozy Sneaker",
