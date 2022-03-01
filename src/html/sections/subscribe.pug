@@ -1,0 +1,9 @@
+include ../components/button.pug
+section.subscribe 
+    .subscribe__content.container 
+        h2.subscribe__title Want First Dibs?
+        p.subscribe__description Join our email list and be the first to know about new limited edition products, material innovations, and lots of other fun updates.
+        form.subscribe__form(action="")
+            input(type="email" placeholder="Enter Your Email Address").subscribe__input
+            +button('#','Sign Up','black')
+        span.subscribe__info Note: You can opt-out at any time. See our Privacy Policyand Terms.
