@@ -1,0 +1,30 @@
+.stories {
+    padding-bottom: 12rem;
+    .card {
+        .card__image {
+            background: $c-gray;
+        }
+        .card__buttons {
+            display: none;
+        }
+        .card__description {
+            img {
+                display: none;
+            }
+        }
+        .card__title  {
+            border:none;
+            padding: 0;
+        }
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(396px,1fr));
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        margin-bottom: 2.5rem;
+    }
+}

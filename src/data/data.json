@@ -112,5 +112,28 @@
             "description":"Limited Edition Color, Diablo",
             "svg":"./img/sun.svg"
         }
+    ],
+    "storiesCards":[
+        {
+            "img":"./img/stories1.jpg",
+            "alt":"stories image",
+            "title":"Planet-Friendly Activewear",
+            "description":"The Natural Run Collection is made with sustainable materials that can stand up to your toughest workout.",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/stories2.jpg",
+            "alt":"arrivals image",
+            "title":"adidas and Allbirds",
+            "description":"Learn more about FUTURECRAFT.FOOTPRINT, our collaborative shoe coming soon.",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/stories3.jpg",
+            "alt":"arrivals image",
+            "title":"How much did your outfit cost the planet?",
+            "description":"Now any brand can use our Carbon Footprint tools to label their emissions.",
+            "svg":"./img/sun.svg"
+        }
     ]
 }

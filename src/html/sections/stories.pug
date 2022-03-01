@@ -1,0 +1,8 @@
+include ../components/card.pug
+
+section.stories    
+    .stories__content.container 
+        h2.stories__title Stories
+        .stories__cards 
+            each item in storiesCards 
+                +card(item.img,item.alt,item.title,item.description,item.svg)
