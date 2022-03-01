@@ -1,0 +1,7 @@
+include ../components/card
+section.collections 
+    .collection__content.container 
+        h2.collections__title Shop The Collections
+        .collections__items 
+            each item in collectionCards
+                +card(item.img,item.alt,item.title,item.description,item.svg)

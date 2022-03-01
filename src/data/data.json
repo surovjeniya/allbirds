@@ -66,5 +66,28 @@
             "description":"Cozy Sneaker",
             "svg":"./img/sun.svg"
         }
+    ],
+    "collectionCards":[
+        {
+            "img":"./img/collection1.jpg",
+            "alt":"collection image",
+            "title":"New Arrivals",
+            "description":"The latest styles and limited edition colors that you can only find here (while they last, that is).",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/collection2.jpg",
+            "alt":"collection image",
+            "title":"Natural Run Collection",
+            "description":"Looking for more sustainable ways to break a sweat? We’ve got you covered from head to toe.",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/collection3.jpg",
+            "alt":"collection image",
+            "title":"Natural Run Collection",
+            "description":"It’s crisp, clean and ready for wherever the day takes you.r",
+            "svg":"./img/sun.svg"
+        }
     ]
 }
