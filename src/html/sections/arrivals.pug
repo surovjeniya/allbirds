@@ -1,0 +1,7 @@
+include ../components/card
+section.arrivals 
+    .arrivals__content.container
+        h2.arrivals__title New Arrivals 
+        .arrivals__cards
+            each item in arrivalsCards
+                +card(item.img,item.alt,item.title,item.description,item.svg)

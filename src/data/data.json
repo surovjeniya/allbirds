@@ -89,5 +89,28 @@
             "description":"It’s crisp, clean and ready for wherever the day takes you.r",
             "svg":"./img/sun.svg"
         }
+    ],
+    "arrivalsCards":[
+        {
+            "img":"./img/arrivals1.png",
+            "alt":"arrivals image",
+            "title":"Men's Trail Runner SWT",
+            "description":"Classic Color, Natural Black",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/arrivals2.png",
+            "alt":"arrivals image",
+            "title":"Women's Trail Runner SWT",
+            "description":"Classic Color, Natural White",
+            "svg":"./img/leaf.svg"
+        },
+        {
+            "img":"./img/arrivals3.png",
+            "alt":"arrivals image",
+            "title":"Men's Trail Runner SWT",
+            "description":"Limited Edition Color, Diablo",
+            "svg":"./img/sun.svg"
+        }
     ]
 }
