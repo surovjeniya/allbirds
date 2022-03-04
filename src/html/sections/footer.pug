@@ -1,0 +1,30 @@
+footer.footer 
+    .footer__content.container 
+        .footer__top 
+            .footer__item
+                h3.footer__title Help 
+                each item in footerItemsHelp
+                    ul.footer__links 
+                        li 
+                            a(href= item.url)= item.label
+            .footer__item
+                    h3.footer__title Shop 
+                    each item in footerItemsShop
+                        ul.footer__links 
+                            li 
+                                a(href= item.url)= item.label
+            .footer__item
+                    h3.footer__title Company 
+                    each item in footerItemsCompany
+                        ul.footer__links 
+                            li 
+                                a(href= item.url)= item.label
+        .footer__center 
+            .footer__information 
+                h4 Follow the Flock
+                p Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #weareallbirds
+            .footer__languages 
+                 each item in languages 
+                    a(href= item.url)
+                        img(src= item.img, alt="") 
+
