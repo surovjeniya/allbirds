@@ -1,0 +1,43 @@
+.footer {
+    background: $c-text;
+    padding-top: 5.2rem;
+    padding-bottom: 9rem;
+    color:$c-white !important;
+    a {
+        color:$c-white;
+    }
+    .container {
+        max-width: 1352px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        .footer__title {
+            margin-bottom: 2rem;
+            font-weight: '700';
+            font-size: 1.4rem;
+            line-height: 2rem;
+            text-transform: uppercase;
+        }
+    }
+    &__center {
+        padding-top: 8rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__information  {
+        max-width: 300px;
+    }
+    &__languages {
+        display: flex;
+        a {
+            margin: 0 2rem;
+        }
+    }
+}

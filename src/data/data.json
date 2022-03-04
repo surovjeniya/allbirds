@@ -135,5 +135,109 @@
             "description":"Now any brand can use our Carbon Footprint tools to label their emissions.",
             "svg":"./img/sun.svg"
         }
-    ]
+    ],
+    "footerItemsHelp":[
+        {
+            "url":"#",
+            "label":"1-888-963-8944"
+        },
+        {
+            "url":"#",
+            "label":"1-814-251-9966 (Text)"
+        },
+        {
+            "url":"#",
+            "label":"help@allbirds.com"
+        },
+        {
+            "url":"#",
+            "label":"Returns/Exchanges"
+        },
+        {
+            "url":"#",
+            "label":"FAQ/Contact Us"
+        },
+        {
+            "url":"#",
+            "label":"Afterpay"
+        }
+    ],
+    "footerItemsShop":[
+            {
+                "url":"#",
+                "label":"Men's Shoes"
+            },
+            {
+                "url":"#",
+                "label":"Women's Shoes"
+            },
+            {
+                "url":"#",
+                "label":"Men's Apparel"
+            },
+            {
+                "url":"#",
+                "label":"Women's Apparel"
+            },
+            {
+                "url":"#",
+                "label":"Socks"
+            },
+            {
+                "url":"#",
+                "label":"Gift Cards"
+            },
+            {
+                "url":"#",
+                "label":"Download the Allbirds App"
+            }
+        ],
+        "footerItemsCompany" : [
+            {
+                "url":"#",
+                "label":"Our Stores"
+            },
+            {
+                "url":"#",
+                "label":"Our Story"
+            },
+            {
+                "url":"#",
+                "label":"Our Materials"
+            },
+            {
+                "url":"#",
+                "label":"Sustainability"
+            },
+            {
+                "url":"#",
+                "label":"Partnerships"
+            },
+            {
+                "url":"#",
+                "label":"Product Testing"
+            },
+            {
+                "url":"#",
+                "label":"Affiliates"
+            },
+            {
+                "url":"#",
+                "label":"Bulk Orders"
+            },
+            {
+                "url":"#",
+                "label":"Careers"
+            }
+        ],
+        "languages": [
+            {
+                "url":"#",
+                "img":"./img/korea.svg"
+            },
+            {
+                "url":"#",
+                "img":"./img/korea.svg"
+            }
+        ]
 }
